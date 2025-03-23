@@ -1,10 +1,11 @@
-| Model          | Dropout | Batch Size | Learning Rate | Planned Epochs | Actual Epochs | Val Accuracy | Val Loss |
-|----------------|---------|------------|---------------|----------------|---------------|--------------|----------|
-| EfficientNetB0 | 0.3     | 16         | 1e-4          | 100            | 31            | 0.61         | 0.65     |
-| EfficientNetB3 | 0.3     | 8          | 1e-4          | 100            | 33            | 0.61         | 0.66     |
-| ResNet50       | 0.5     | 16         | 1e-4          | 100            | 7             | 0.77         | 0.48     |
-| ResNet101      | 0.4     | 16         | 1e-4          | 100            | 6             | 0.5          | 0.69     |
-| Xception       | 0.5     | 12         | 1e-4          | 100            | 5             | 0.52         | 0.69     |
+| Model          | Dropout | Batch Size | Learning Rate | Epochs | Val accuracy | Val loss | 
+|----------------|---------|------------|---------------|--------|--------------|----------|
+| ResNet50       | 0.5     | 16         | 1e-4          | 31     | 0.61         | 0.65     | 
+| ResNet101      | 0.4     | 16         | 1e-4          | 33     | 0.61         | 0.66     | 
+| Xception       | 0.5     | 12         | 1e-4          | 8      | 0.77         | 0.48     |
+| EfficientNetB0 | 0.3     | 16         | 1e-4          | 6      | 0.5          | 0.69     | 
+| EfficientNetB3 | 0.3     | 8          | 1e-4          | 5      | 0.52         | 0.69     | 
+
 
 Early stop bol aplikovaný na všetky modely, takže sa vypli dostatočne skoro
 
